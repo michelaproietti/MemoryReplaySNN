@@ -1,0 +1,23 @@
+experiment:
+    dataset: 'mnist'
+    scenario: 'cil' # 'cil' or 'tf'
+    replay_raw: True
+    img_size: 28
+    seed: 123
+
+paths:
+    data: './data/'
+    checkpoints: './trained_models/'
+    stats_dir: './training_statistics/'
+    cam_dir: './CAM/'
+    
+training:
+    batch_size: 16
+    num_epochs: 5
+    lr: 1e-3 #tf 1e-4 #cil 1e-3
+    
+    num_steps: 30
+    beta: 0.99
+    surrogate: 'fast_sigmoid'
+    
+    mem_size: 0
