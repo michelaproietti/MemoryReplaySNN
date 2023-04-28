@@ -50,10 +50,13 @@ The following table shows the results obtained for the task-free continual learn
 ## How to run the code
 
 To train one of the networks with the setup specified in config_file.yaml, run:
-'python train.py --config ./configs/config_file.yaml'
+
+`python train.py --config ./configs/config_file.yaml`
 
 Then, to test the network you can run:
-'python test.py --config ./configs/config_file.yaml'
+
+`python test.py --config ./configs/config_file.yaml`
 
 To train and test the joint training (on the whole 10-class dataset):
-'python joint_training.py'
+
+`python joint_training.py`
