@@ -1,5 +1,3 @@
-# Neuromorphic Computing Exam 2023
-
 ## Memory replay for continual learning with spiking neural networks
 
 Two of the most impressive features of biological neural networks are their high energy efficiency and their ability to continuously
@@ -60,3 +58,5 @@ Then, to test the network you can run:
 To train and test the joint training (on the whole 10-class dataset):
 
 `python joint_training.py`
+
+### Preprint submitted to IEEE MLPS 2023
