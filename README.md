@@ -59,4 +59,5 @@ To train and test the joint training (on the whole 10-class dataset):
 
 `python joint_training.py`
 
-### Preprint submitted to IEEE MLPS 2023
+
+##### Preprint submitted to IEEE MLPS 2023
